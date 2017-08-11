@@ -1,0 +1,66 @@
+.about {
+    padding-bottom: 49px;
+}
+.school {
+    padding-top: 109px;
+
+    &__title {
+        color: #e79a14;
+        font-family: "Muller Narrow";
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 36px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+    }
+    &__text {
+        color: #1a1a1a;
+        font-family: Lato;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 16px;
+        line-height: 16px;
+        margin-top: 27px;
+        margin-bottom: 0;
+        letter-spacing: 0.7px;
+        &--marg {
+            margin-top: 17px;
+        }
+    }
+}
+
+.school-wrap {
+    padding-top: 6px;
+}
+
+.school-info-wrap {
+    @media screen and (max-width: 768px) {
+        text-align: center;
+    }
+}
+
+.school-info {
+    padding: 0;
+    margin: 0;
+    margin-top: 27px;
+
+    &__list {
+        list-style-type: none;
+        &--count {
+            color: #50abf5;
+            font-family: Lato;
+            font-size: 36px;
+            font-weight: 900;
+        }
+        &--text {
+            color: #1a1a1a;
+            font-family: Lato;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 18px;
+        }
+    }
+    &__image {
+        height: 33px;
+    }
+}
